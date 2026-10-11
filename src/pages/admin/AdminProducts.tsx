@@ -5,7 +5,6 @@ import type { Product } from '@/types';
 import { repository } from '@/lib/repository';
 import { filterProducts } from '@/lib/filters';
 import { formatBRL } from '@/lib/format';
-import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
 import { Dialog } from '@/components/ui/Dialog';
 import { useToast } from '@/context/ToastContext';

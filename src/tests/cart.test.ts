@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { cartReducer, cartSubtotal, cartCount, shippingFor } from '@/lib/cart';
 import type { CartLine } from '@/types';
 
-const line = (id: string, price: number, qty = 1, size = 'M' as const): CartLine => ({
+const line = (id: string, price: number, qty = 1, size: 'S' | 'M' | 'L' | 'XL' = 'M' as const): CartLine => ({
   productId: id, slug: id, name: id, price, image: '', size, quantity: qty,
 });
 

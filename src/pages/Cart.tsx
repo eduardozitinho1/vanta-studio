@@ -20,7 +20,6 @@ export default function Cart() {
 
   useEffect(() => {
     if (!lines.length) return;
-    let alive = true;
     (async () => {
       try {
         const products = await repository.listProducts();
@@ -36,7 +35,6 @@ export default function Cart() {
         }
       } catch { /* allow cart to still render */ }
     })();
-    return () => { alive = false; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
