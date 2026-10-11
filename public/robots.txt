@@ -1,0 +1,9 @@
+# VANTA STUDIO — fictional portfolio project.
+User-agent: *
+Disallow: /admin
+Disallow: /admin/
+Disallow: /checkout
+Disallow: /carrinho
+Disallow: /pedido/
+Allow: /
+Sitemap: /sitemap.xml

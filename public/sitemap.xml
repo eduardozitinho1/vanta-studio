@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://example.com with VITE_SITE_URL before publishing. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/loja</loc></url>
+  <url><loc>https://example.com/sobre</loc></url>
+  <url><loc>https://example.com/contato</loc></url>
+  <url><loc>https://example.com/privacidade</loc></url>
+  <url><loc>https://example.com/termos</loc></url>
+  <url><loc>https://example.com/envio-e-devolucoes</loc></url>
+</urlset>
